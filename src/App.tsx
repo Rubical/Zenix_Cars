@@ -1,16 +1,25 @@
-import React from 'react';
+import React from "react";
+import "./reset.css";
+import Layout from "./components/layout/Layout";
+import { createTheme } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material";
 
+const theme = createTheme({
+  typography: {
+    fontFamily: ["Montserrat"].join(","),
+  },
+});
 
 function App() {
-
-
   return (
-      <>
-    <img src='https://cdn.imagin.studio/getImage?&make=mercedes&modelFamily=s&customer=img' alt='car'/>
-      <img src='https://cdn.imagin.studio/getImage?&make=bmw&modelFamily=7&customer=img' alt='car'/>
-        <img src='https://cdn.imagin.studio/getImage?&make=audi&modelFamily=a8&customer=img' alt='car'/>
-
-      </>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <img
+          src="https://cdn.imagin.studio/getImage?&make=audi&modelFamily=a6&customer=img&modelRange=rs6&zoomType=fullscreen"
+          alt="mercedes"
+        />
+      </Layout>
+    </ThemeProvider>
   );
 }
 
