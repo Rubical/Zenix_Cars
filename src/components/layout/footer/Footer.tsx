@@ -3,7 +3,7 @@ import { Box, Container, Link, Typography } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import logo from "./logo.webp";
+import logo from "../logo.webp";
 
 const Footer: FC = () => {
   return (
@@ -79,7 +79,7 @@ const Footer: FC = () => {
           textAlign: "center",
         }}
       >
-        ⓒ 2023 Rubical. All rights reserved.
+        &copy; 2023 Rubical. All rights reserved
       </Typography>
     </Container>
   );

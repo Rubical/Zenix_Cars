@@ -3,6 +3,7 @@ import "./reset.css";
 import Layout from "./components/layout/Layout";
 import { createTheme } from "@mui/material/styles";
 import { ThemeProvider } from "@mui/material";
+import Home from "./screens/Home";
 
 const theme = createTheme({
   typography: {
@@ -14,10 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <img
-          src="https://cdn.imagin.studio/getImage?&make=audi&modelFamily=a6&customer=img&modelRange=rs6&zoomType=fullscreen"
-          alt="mercedes"
-        />
+        <Home />
       </Layout>
     </ThemeProvider>
   );
