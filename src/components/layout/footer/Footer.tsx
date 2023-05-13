@@ -4,6 +4,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import logo from "../logo.webp";
+import Logo from "../Logo";
 
 const Footer: FC = () => {
   return (
@@ -15,7 +16,7 @@ const Footer: FC = () => {
         paddingBottom: "50px",
       }}
     >
-      <img style={{ width: "180px", height: "55px" }} src={logo} />
+      <Logo carColor={"#313896"} textColor={"#6f7387"} />
       <Box
         sx={{
           display: "flex",

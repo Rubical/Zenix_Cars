@@ -65,7 +65,7 @@ const Showcase: FC<IShowcase> = ({ brand, model, color, info }) => {
             width: "800px",
             height: "500px",
           }}
-          src={`https://cdn.imagin.studio/getImage?&make=audi&modelFamily=r8&customer=img&paintDescription=${color}&angle=23&zoomType=fullscreen`}
+          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${color}&angle=23&zoomType=fullscreen`}
           alt="audi"
         />
       </Box>

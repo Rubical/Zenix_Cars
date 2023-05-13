@@ -11,42 +11,72 @@ import smoke1Brown from "./brown/smoke-brown-1.png";
 import smoke2Brown from "./brown/smoke-brown-2.png";
 import smoke3Brown from "./brown/smoke-brown-3.png";
 import smoke1Gray from "./gray/smoke-gray-1.png";
-import smoke2Gray from "./gray/smoke-gray-1.png";
-import smoke3Gray from "./gray/smoke-gray-1.png";
+import smoke2Gray from "./gray/smoke-gray-2.png";
+import smoke3Gray from "./gray/smoke-gray-3.png";
 
 interface FogBackground {
-  color: string;
+  color: "red" | "blue" | "brown" | "gray";
 }
+
+interface ISmokeImages {
+  red1: string;
+  red2: string;
+  red3: string;
+  blue1: string;
+  blue2: string;
+  blue3: string;
+  brown1: string;
+  brown2: string;
+  brown3: string;
+  gray1: string;
+  gray2: string;
+  gray3: string;
+}
+
+const images: ISmokeImages = {
+  red1: smoke1Red,
+  red2: smoke2Red,
+  red3: smoke3Red,
+  blue1: smoke1Blue,
+  blue2: smoke2Blue,
+  blue3: smoke3Blue,
+  brown1: smoke1Brown,
+  brown2: smoke2Brown,
+  brown3: smoke3Brown,
+  gray1: smoke1Gray,
+  gray2: smoke2Gray,
+  gray3: smoke3Gray,
+};
 
 const FogBackground: FC<FogBackground> = ({ color }) => {
   return (
     <section className={style.agSmokeBlock}>
       <div className={style.agSmoke1}>
-        <img src={smoke1Gray} />
+        <img src={images[(color + 1) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay1}`}>
-        <img src={`../${color}/smoke-${color}-1.png`} />
+        <img src={images[(color + 1) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay2}`}>
-        <img src={"smoke1" + color} />
+        <img src={images[(color + 1) as keyof ISmokeImages]} />
       </div>
       <div className={style.agSmoke2}>
-        <img src={"smoke2" + color} />
+        <img src={images[(color + 2) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay1}`}>
-        <img src={"smoke2" + color} />
+        <img src={images[(color + 2) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay2}`}>
-        <img src={"smoke2" + color} />
+        <img src={images[(color + 2) as keyof ISmokeImages]} />
       </div>
       <div className={style.agSmoke3}>
-        <img src={"smoke3" + color} />
+        <img src={images[(color + 3) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay1}`}>
-        <img src={"smoke3" + color} />
+        <img src={images[(color + 3) as keyof ISmokeImages]} />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay2}`}>
-        <img src={"smoke3" + color} />
+        <img src={images[(color + 3) as keyof ISmokeImages]} />
       </div>
       <div className={style.agSmoke4}>
         <img src={smokeGray} />

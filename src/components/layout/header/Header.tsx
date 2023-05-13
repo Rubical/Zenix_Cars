@@ -10,7 +10,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import SearchIcon from "@mui/icons-material/Search";
-import logo from "../logo.webp";
+import logo from "../Logo";
+import Logo from "../Logo";
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -38,11 +39,7 @@ function Header() {
           <Box
             sx={{ display: { xs: "none", md: "flex" }, marginRight: "250px" }}
           >
-            <img
-              src={logo}
-              style={{ width: "180px", height: "55px" }}
-              alt="logo"
-            />
+            <Logo carColor={"#313896"} textColor={"#6f7387"} />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -79,11 +76,7 @@ function Header() {
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
-            <img
-              src={logo}
-              style={{ width: "180px", height: "55px" }}
-              alt="logo"
-            />
+            <Logo carColor={"#313896"} textColor={"#6f7387"} />
           </Box>
           <Box
             sx={{
