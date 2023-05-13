@@ -1,12 +1,15 @@
 import React, { FC } from "react";
+import Logo from "../Logo";
+import { IShowcaseCar } from "../../types/carShowcase.types";
 import { Box, Container, Link, Typography } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import logo from "../logo.webp";
-import Logo from "../Logo";
 
-const Footer: FC = () => {
+interface IFooter extends Pick<IShowcaseCar, "logo"> {}
+
+const Footer: FC<IFooter> = ({ logo }) => {
+  const { logoTextColor, logoCarColor } = logo;
   return (
     <Container
       sx={{
@@ -16,7 +19,7 @@ const Footer: FC = () => {
         paddingBottom: "50px",
       }}
     >
-      <Logo carColor={"#313896"} textColor={"#6f7387"} />
+      <Logo carColor={logo.logoCarColor} textColor={logo.logoTextColor} />
       <Box
         sx={{
           display: "flex",
@@ -30,12 +33,12 @@ const Footer: FC = () => {
         >
           <FacebookIcon
             sx={{
-              color: "#4049c1",
+              color: logoCarColor,
               width: "30px",
               height: "30px",
               transition: "color 0.1s ease-in",
               "&:hover": {
-                color: "#313896",
+                opacity: "0.8",
               },
             }}
           ></FacebookIcon>
@@ -43,12 +46,12 @@ const Footer: FC = () => {
         <Link href={"https://t.me/evgenyoh"} target={"_blank"}>
           <TelegramIcon
             sx={{
-              color: "#4049c1",
+              color: logoCarColor,
               width: "30px",
               height: "30px",
               transition: "color 0.1s ease-in",
               "&:hover": {
-                color: "#313896",
+                opacity: "0.8",
               },
             }}
           ></TelegramIcon>
@@ -59,12 +62,12 @@ const Footer: FC = () => {
         >
           <LinkedInIcon
             sx={{
-              color: "#4049c1",
+              color: logoCarColor,
               width: "30px",
               height: "30px",
               transition: "color 0.1s ease-in",
               "&:hover": {
-                color: "#313896",
+                opacity: "0.8",
               },
             }}
           ></LinkedInIcon>
@@ -72,7 +75,7 @@ const Footer: FC = () => {
       </Box>
       <Typography
         sx={{
-          color: "#6f7387",
+          color: logoTextColor,
           paddingTop: "30px",
           fontSize: "13px",
           fontWeight: "500",

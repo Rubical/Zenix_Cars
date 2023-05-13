@@ -1,4 +1,5 @@
 import * as React from "react";
+import Logo from "../Logo";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -10,10 +11,14 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import SearchIcon from "@mui/icons-material/Search";
-import logo from "../Logo";
-import Logo from "../Logo";
+import { IShowcaseCar } from "../../types/carShowcase.types";
+import { FC } from "react";
 
-function Header() {
+interface IHeader extends Pick<IShowcaseCar, "logo"> {}
+
+const Header: FC<IHeader> = ({ logo }) => {
+  const { logoTextColor, logoCarColor } = logo;
+
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
@@ -39,7 +44,7 @@ function Header() {
           <Box
             sx={{ display: { xs: "none", md: "flex" }, marginRight: "250px" }}
           >
-            <Logo carColor={"#313896"} textColor={"#6f7387"} />
+            <Logo carColor={logoCarColor} textColor={logoTextColor} />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -76,7 +81,7 @@ function Header() {
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
-            <Logo carColor={"#313896"} textColor={"#6f7387"} />
+            <Logo carColor={logoCarColor} textColor={logoTextColor} />
           </Box>
           <Box
             sx={{
@@ -87,7 +92,7 @@ function Header() {
           >
             <Button
               sx={{
-                color: "#6f7387",
+                color: logoTextColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
@@ -97,7 +102,7 @@ function Header() {
             </Button>
             <Button
               sx={{
-                color: "#6f7387",
+                color: logoTextColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
@@ -107,7 +112,7 @@ function Header() {
             </Button>
             <Button
               sx={{
-                color: "#6f7387",
+                color: logoTextColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
@@ -117,7 +122,7 @@ function Header() {
             </Button>
           </Box>
           <Box>
-            <Button sx={{ color: "#6f7387" }}>
+            <Button sx={{ color: logoTextColor }}>
               <SearchIcon sx={{ width: "30px", height: "30px" }} />
             </Button>
           </Box>
@@ -125,5 +130,5 @@ function Header() {
       </Container>
     </AppBar>
   );
-}
+};
 export default Header;

@@ -1,8 +1,10 @@
 import React, { FC, PropsWithChildren } from "react";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
+import { useCarShowcase } from "../../hooks/useCarShowcase";
 
 const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
+  const { logo } = useCarShowcase();
   return (
     <div
       style={{
@@ -11,9 +13,9 @@ const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
         alignItems: "center",
       }}
     >
-      <Header />
+      <Header logo={logo} />
       {children}
-      <Footer />
+      <Footer logo={logo} />
     </div>
   );
 };

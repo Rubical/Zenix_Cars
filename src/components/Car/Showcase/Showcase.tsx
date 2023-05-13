@@ -1,16 +1,12 @@
 import React, { FC } from "react";
+import { IShowcaseCar } from "../../types/carShowcase.types";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 
-interface IShowcase {
-  brand: string;
-  model: string;
-  color: string;
-  info: string;
-}
+interface IShowCaseCarInfo extends Omit<IShowcaseCar, "logo"> {}
 
-const Showcase: FC<IShowcase> = ({ brand, model, color, info }) => {
+const Showcase: FC<IShowCaseCarInfo> = ({ brand, model, color, carSlogan }) => {
   return (
     <Container
       sx={{
@@ -54,7 +50,7 @@ const Showcase: FC<IShowcase> = ({ brand, model, color, info }) => {
         <Typography
           sx={{ color: "lightgray", fontSize: "14px", width: "700px" }}
         >
-          {info}
+          {carSlogan}
         </Typography>
       </Box>
       <Box sx={{ display: "flex", justifyContent: "center" }}>

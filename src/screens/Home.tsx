@@ -2,18 +2,18 @@ import React, { FC } from "react";
 import FogBackground from "../components/UI/animation/FogBackground/FogBackground";
 import Box from "@mui/material/Box";
 import Showcase from "../components/Car/Showcase/Showcase";
+import { useCarShowcase } from "../hooks/useCarShowcase";
 
 const Home: FC = () => {
+  const { brand, model, color, carSlogan } = useCarShowcase();
   return (
     <Box style={{ width: "100%" }}>
-      <FogBackground color={"blue"} />
+      <FogBackground color={color} />
       <Showcase
-        brand={"volkswagen"}
-        model={"transporter"}
-        color={"blue"}
-        info={
-          "Many cars claim racing heritage, but the Audi R8 Coupe is a true thoroughbred. Sharing 50 percent of its parts with the R8 GT3 LMS race car, it was born on the track and built for the road."
-        }
+        brand={brand}
+        model={model}
+        color={color}
+        carSlogan={carSlogan}
       />
     </Box>
   );
