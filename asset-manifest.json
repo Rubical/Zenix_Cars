@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Zenix_Cars/static/css/main.6de0be53.css",
+    "main.js": "/Zenix_Cars/static/js/main.9af0996c.js",
+    "static/media/smoke-brown-3.png": "/Zenix_Cars/static/media/smoke-brown-3.ada4dd80441a2c9e7cf9.png",
+    "static/media/smoke-gray-3.png": "/Zenix_Cars/static/media/smoke-gray-3.f76263c380aa3d3eb658.png",
+    "static/media/smoke-blue-3.png": "/Zenix_Cars/static/media/smoke-blue-3.2c8ab0b36c73b6506940.png",
+    "static/media/smoke-red-3.png": "/Zenix_Cars/static/media/smoke-red-3.15647625ac422c6918c9.png",
+    "static/media/smoke-gray-1.png": "/Zenix_Cars/static/media/smoke-gray-1.4f4b430cb2d3c7a3a02d.png",
+    "static/media/smoke-brown-1.png": "/Zenix_Cars/static/media/smoke-brown-1.63e7209bc5fe726b505c.png",
+    "static/media/smoke-blue-1.png": "/Zenix_Cars/static/media/smoke-blue-1.64c632e1638919cb5a4f.png",
+    "static/media/smoke-red-1.png": "/Zenix_Cars/static/media/smoke-red-1.a78120e0bba86fc7c675.png",
+    "static/media/smoke-brown-2.png": "/Zenix_Cars/static/media/smoke-brown-2.4f3889c1ea6c0a576087.png",
+    "static/media/smoke-gray-2.png": "/Zenix_Cars/static/media/smoke-gray-2.3055e7d330545b9142f8.png",
+    "static/media/smoke-blue-2.png": "/Zenix_Cars/static/media/smoke-blue-2.471fa47fdf2d46e3d0a3.png",
+    "static/media/smoke-red-2.png": "/Zenix_Cars/static/media/smoke-red-2.45d7396ec0e803dec791.png",
+    "static/media/smoke-gray.png": "/Zenix_Cars/static/media/smoke-gray.74cb8ffccca593df8da6.png",
+    "index.html": "/Zenix_Cars/index.html",
+    "main.6de0be53.css.map": "/Zenix_Cars/static/css/main.6de0be53.css.map",
+    "main.9af0996c.js.map": "/Zenix_Cars/static/js/main.9af0996c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de0be53.css",
+    "static/js/main.9af0996c.js"
+  ]
+}
