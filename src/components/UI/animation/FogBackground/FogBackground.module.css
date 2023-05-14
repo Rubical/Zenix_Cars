@@ -21,20 +21,20 @@ img {
     position: absolute;
     top: 0;
     right: 0;
-
     -webkit-animation: anSmoke1 6s ease-in-out infinite;
     -moz-animation: anSmoke1 6s ease-in-out infinite;
     -o-animation: anSmoke1 6s ease-in-out infinite;
     animation: anSmoke1 6s ease-in-out infinite;
 }
 .agSmoke2 {
-    width: 57.1em;
+    width: 60%;
     z-index: -2;
     top: 7em;
 }
 .agSmoke2,
 .agSmoke3 {
     position: absolute;
+    width: 70%;
     left: 0;
     -webkit-animation: anSmoke2 6s ease-in-out infinite;
     -moz-animation: anSmoke2 6s ease-in-out infinite;
@@ -47,7 +47,7 @@ img {
     top: -32em;
 }
 .agSmoke4 {
-    width: 61.4em;
+    width: 50%;
     z-index: -3;
     position: absolute;
     top: 12em;

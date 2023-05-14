@@ -13,10 +13,9 @@ import smoke3Brown from "./brown/smoke-brown-3.png";
 import smoke1Gray from "./gray/smoke-gray-1.png";
 import smoke2Gray from "./gray/smoke-gray-2.png";
 import smoke3Gray from "./gray/smoke-gray-3.png";
+import { IShowcaseCar } from "../../../../types/carShowcase.types";
 
-interface FogBackground {
-  color: "red" | "blue" | "brown" | "gray";
-}
+interface FogBackground extends Pick<IShowcaseCar, "carColor"> {}
 
 interface ISmokeImages {
   red1: string;
@@ -48,44 +47,44 @@ const images: ISmokeImages = {
   gray3: smoke3Gray,
 };
 
-const FogBackground: FC<FogBackground> = ({ color }) => {
+const FogBackground: FC<FogBackground> = ({ carColor }) => {
   return (
     <section className={style.agSmokeBlock}>
       <div className={style.agSmoke1}>
-        <img src={images[(color + 1) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay1}`}>
-        <img src={images[(color + 1) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay2}`}>
-        <img src={images[(color + 1) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke2}>
-        <img src={images[(color + 2) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay1}`}>
-        <img src={images[(color + 2) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay2}`}>
-        <img src={images[(color + 2) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke3}>
-        <img src={images[(color + 3) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay1}`}>
-        <img src={images[(color + 3) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay2}`}>
-        <img src={images[(color + 3) as keyof ISmokeImages]} />
+        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke4}>
-        <img src={smokeGray} />
+        <img src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay1}`}>
-        <img src={smokeGray} />
+        <img src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay2}`}>
-        <img src={smokeGray} />
+        <img src={smokeGray} alt="smoke" />
       </div>
       <div className={style.agFormatContainer}></div>
     </section>

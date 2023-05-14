@@ -1,15 +1,15 @@
 import React, { FC } from "react";
 import Logo from "../Logo";
-import { IShowcaseCar } from "../../types/carShowcase.types";
+import { IShowcaseCar } from "../../../types/carShowcase.types";
 import { Box, Container, Link, Typography } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-interface IFooter extends Pick<IShowcaseCar, "logo"> {}
+interface IFooter extends Pick<IShowcaseCar, "theme"> {}
 
-const Footer: FC<IFooter> = ({ logo }) => {
-  const { logoTextColor, logoCarColor } = logo;
+const Footer: FC<IFooter> = ({ theme }) => {
+  const { primaryColor, secondaryColor } = theme;
   return (
     <Container
       sx={{
@@ -19,7 +19,7 @@ const Footer: FC<IFooter> = ({ logo }) => {
         paddingBottom: "50px",
       }}
     >
-      <Logo carColor={logo.logoCarColor} textColor={logo.logoTextColor} />
+      <Logo carColor={primaryColor} textColor={secondaryColor} />
       <Box
         sx={{
           display: "flex",
@@ -33,10 +33,10 @@ const Footer: FC<IFooter> = ({ logo }) => {
         >
           <FacebookIcon
             sx={{
-              color: logoCarColor,
+              color: secondaryColor,
               width: "30px",
               height: "30px",
-              transition: "color 0.1s ease-in",
+              transition: "opacity 0.1s ease-in",
               "&:hover": {
                 opacity: "0.8",
               },
@@ -46,10 +46,10 @@ const Footer: FC<IFooter> = ({ logo }) => {
         <Link href={"https://t.me/evgenyoh"} target={"_blank"}>
           <TelegramIcon
             sx={{
-              color: logoCarColor,
+              color: secondaryColor,
               width: "30px",
               height: "30px",
-              transition: "color 0.1s ease-in",
+              transition: "opacity 0.1s ease-in",
               "&:hover": {
                 opacity: "0.8",
               },
@@ -62,10 +62,10 @@ const Footer: FC<IFooter> = ({ logo }) => {
         >
           <LinkedInIcon
             sx={{
-              color: logoCarColor,
+              color: secondaryColor,
               width: "30px",
               height: "30px",
-              transition: "color 0.1s ease-in",
+              transition: "opacity 0.1s ease-in",
               "&:hover": {
                 opacity: "0.8",
               },
@@ -75,7 +75,7 @@ const Footer: FC<IFooter> = ({ logo }) => {
       </Box>
       <Typography
         sx={{
-          color: logoTextColor,
+          color: secondaryColor,
           paddingTop: "30px",
           fontSize: "13px",
           fontWeight: "500",

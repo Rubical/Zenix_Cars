@@ -11,13 +11,13 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import SearchIcon from "@mui/icons-material/Search";
-import { IShowcaseCar } from "../../types/carShowcase.types";
+import { IShowcaseCar } from "../../../types/carShowcase.types";
 import { FC } from "react";
 
-interface IHeader extends Pick<IShowcaseCar, "logo"> {}
+interface IHeader extends Pick<IShowcaseCar, "theme"> {}
 
-const Header: FC<IHeader> = ({ logo }) => {
-  const { logoTextColor, logoCarColor } = logo;
+const Header: FC<IHeader> = ({ theme }) => {
+  const { primaryColor, secondaryColor } = theme;
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
@@ -44,7 +44,7 @@ const Header: FC<IHeader> = ({ logo }) => {
           <Box
             sx={{ display: { xs: "none", md: "flex" }, marginRight: "250px" }}
           >
-            <Logo carColor={logoCarColor} textColor={logoTextColor} />
+            <Logo carColor={primaryColor} textColor={secondaryColor} />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -81,7 +81,7 @@ const Header: FC<IHeader> = ({ logo }) => {
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
-            <Logo carColor={logoCarColor} textColor={logoTextColor} />
+            <Logo carColor={primaryColor} textColor={secondaryColor} />
           </Box>
           <Box
             sx={{
@@ -91,38 +91,62 @@ const Header: FC<IHeader> = ({ logo }) => {
             }}
           >
             <Button
+              disableRipple={true}
               sx={{
-                color: logoTextColor,
+                color: secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
+                "&:hover": {
+                  opacity: "0.8",
+                  backgroundColor: "transparent",
+                },
               }}
             >
               Home
             </Button>
             <Button
+              disableRipple={true}
               sx={{
-                color: logoTextColor,
+                color: secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
+                "&:hover": {
+                  opacity: "0.8",
+                  backgroundColor: "transparent",
+                },
               }}
             >
               Configurator
             </Button>
             <Button
+              disableRipple={true}
               sx={{
-                color: logoTextColor,
+                color: secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
+                "&:hover": {
+                  opacity: "0.8",
+                  backgroundColor: "transparent",
+                },
               }}
             >
               History
             </Button>
           </Box>
           <Box>
-            <Button sx={{ color: logoTextColor }}>
+            <Button
+              disableRipple={true}
+              sx={{
+                color: secondaryColor,
+                "&:hover": {
+                  opacity: "0.8",
+                  backgroundColor: "transparent",
+                },
+              }}
+            >
               <SearchIcon sx={{ width: "30px", height: "30px" }} />
             </Button>
           </Box>

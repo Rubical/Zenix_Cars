@@ -4,19 +4,13 @@ import Footer from "./footer/Footer";
 import { useCarShowcase } from "../../hooks/useCarShowcase";
 
 const Layout: FC<PropsWithChildren<unknown>> = ({ children }) => {
-  const { logo } = useCarShowcase();
+  const { theme } = useCarShowcase();
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      <Header logo={logo} />
+    <>
+      <Header theme={theme} />
       {children}
-      <Footer logo={logo} />
-    </div>
+      <Footer theme={theme} />
+    </>
   );
 };
 
