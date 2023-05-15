@@ -3,20 +3,18 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { IShowcaseCar } from "../../../types/carShowcase.types";
-import { useActions } from "../../../hooks/useActions";
-import { showCaseCarsData } from "../../../data/showcase.data";
+import { useActions } from "../../hooks/useActions";
+import { showCaseCarsData } from "../../data/showcase.data";
+import { useCarShowcase } from "../../hooks/useCarShowcase";
+import Loader from "../UI/loader/Loader";
+import CarParametersCard from "../UI/cards/CarParametersCard";
 
-const Showcase: FC<IShowcaseCar> = ({
-  brand,
-  model,
-  carColor,
-  carSlogan,
-  theme,
-}) => {
+const Showcase: FC = () => {
   const [activeCarBtn, setActiveCarBtn] = useState("design");
+  const { car, theme, isLoading } = useCarShowcase();
+  const { brand, model, carColor, carSlogan, engine, car0__100, gearbox } = car;
   const { primaryColor, secondaryColor } = theme;
-  const { changeShowcaseCar } = useActions();
+  const { changeShowcaseCar, startLoading, stopLoading } = useActions();
 
   const switchShowcaseCar = (category: string) => {
     const selector =
@@ -27,15 +25,19 @@ const Showcase: FC<IShowcaseCar> = ({
         : category === "safety"
         ? "volvo"
         : "volkswagen";
-    const activeCar = showCaseCarsData.filter((car) => car.brand === selector);
+    const activeCar = showCaseCarsData.filter(
+      (el) => el.car.brand === selector
+    );
     setActiveCarBtn(category);
     changeShowcaseCar(activeCar[0]);
+    startLoading();
   };
 
   return (
     <Container
       sx={{
         color: "white",
+        marginBottom: "110px",
       }}
     >
       <Box
@@ -86,16 +88,30 @@ const Showcase: FC<IShowcaseCar> = ({
           justifyContent: "center",
         }}
       >
-        <img
-          style={{
-            position: "relative",
-            zIndex: "10",
-            width: "800px",
-            height: "500px",
-          }}
-          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=23&zoomType=fullscreen`}
-          alt="car"
-        />
+        {isLoading ? (
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "800px",
+              height: "500px",
+            }}
+          >
+            <Loader theme={theme} />
+          </Box>
+        ) : (
+          <img
+            style={{
+              position: "relative",
+              zIndex: "10",
+              width: "800px",
+              height: "500px",
+            }}
+            src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=28&zoomType=fullscreen`}
+            alt="car"
+          />
+        )}
         <Box
           sx={{
             display: "flex",
@@ -177,6 +193,12 @@ const Showcase: FC<IShowcaseCar> = ({
           </Button>
         </Box>
       </Box>
+      <CarParametersCard
+        car0__100={car0__100}
+        engine={engine}
+        gearbox={gearbox}
+        marginTop={"-50px"}
+      />
     </Container>
   );
 };

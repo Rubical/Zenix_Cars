@@ -13,9 +13,7 @@ import smoke3Brown from "./brown/smoke-brown-3.png";
 import smoke1Gray from "./gray/smoke-gray-1.png";
 import smoke2Gray from "./gray/smoke-gray-2.png";
 import smoke3Gray from "./gray/smoke-gray-3.png";
-import { IShowcaseCar } from "../../../../types/carShowcase.types";
-
-interface FogBackground extends Pick<IShowcaseCar, "carColor"> {}
+import { useCarShowcase } from "../../../../hooks/useCarShowcase";
 
 interface ISmokeImages {
   red1: string;
@@ -47,7 +45,9 @@ const images: ISmokeImages = {
   gray3: smoke3Gray,
 };
 
-const FogBackground: FC<FogBackground> = ({ carColor }) => {
+const FogBackground: FC = () => {
+  const { car } = useCarShowcase();
+  const { carColor } = car;
   return (
     <section className={style.agSmokeBlock}>
       <div className={style.agSmoke1}>
