@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Zenix_Cars/static/css/main.6de0be53.css",
-    "main.js": "/Zenix_Cars/static/js/main.9af0996c.js",
+    "main.css": "/Zenix_Cars/static/css/main.5b431007.css",
+    "main.js": "/Zenix_Cars/static/js/main.d69fac67.js",
+    "static/media/tire-track.svg": "/Zenix_Cars/static/media/tire-track.5838061cefd129ce5bb8efba2f77ad39.svg",
     "static/media/smoke-brown-3.png": "/Zenix_Cars/static/media/smoke-brown-3.ada4dd80441a2c9e7cf9.png",
     "static/media/smoke-gray-3.png": "/Zenix_Cars/static/media/smoke-gray-3.f76263c380aa3d3eb658.png",
     "static/media/smoke-blue-3.png": "/Zenix_Cars/static/media/smoke-blue-3.2c8ab0b36c73b6506940.png",
@@ -15,12 +16,16 @@
     "static/media/smoke-blue-2.png": "/Zenix_Cars/static/media/smoke-blue-2.471fa47fdf2d46e3d0a3.png",
     "static/media/smoke-red-2.png": "/Zenix_Cars/static/media/smoke-red-2.45d7396ec0e803dec791.png",
     "static/media/smoke-gray.png": "/Zenix_Cars/static/media/smoke-gray.74cb8ffccca593df8da6.png",
+    "static/media/ferrari-logo.svg": "/Zenix_Cars/static/media/ferrari-logo.500e6435837ddc3bfbab37c2ebeeb71a.svg",
+    "static/media/chevrolet-logo.svg": "/Zenix_Cars/static/media/chevrolet-logo.d5a186a79d0253779b6ff9f289cab72e.svg",
+    "static/media/audi-logo.svg": "/Zenix_Cars/static/media/audi-logo.7c4f32de672b17fafa20fcd329ffb86c.svg",
+    "static/media/tesla-logo.svg": "/Zenix_Cars/static/media/tesla-logo.c90245e7801181683ffb0d326c92cec3.svg",
     "index.html": "/Zenix_Cars/index.html",
-    "main.6de0be53.css.map": "/Zenix_Cars/static/css/main.6de0be53.css.map",
-    "main.9af0996c.js.map": "/Zenix_Cars/static/js/main.9af0996c.js.map"
+    "main.5b431007.css.map": "/Zenix_Cars/static/css/main.5b431007.css.map",
+    "main.d69fac67.js.map": "/Zenix_Cars/static/js/main.d69fac67.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de0be53.css",
-    "static/js/main.9af0996c.js"
+    "static/css/main.5b431007.css",
+    "static/js/main.d69fac67.js"
   ]
 }
