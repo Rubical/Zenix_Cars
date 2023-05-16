@@ -17,6 +17,7 @@ const Showcase: FC = () => {
   const { changeShowcaseCar, startLoading, stopLoading } = useActions();
 
   const switchShowcaseCar = (category: string) => {
+    if (activeCarBtn === category) return;
     const selector =
       category === "design"
         ? "audi"
@@ -88,30 +89,31 @@ const Showcase: FC = () => {
           justifyContent: "center",
         }}
       >
-        {isLoading ? (
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              width: "800px",
-              height: "500px",
-            }}
-          >
-            <Loader theme={theme} />
-          </Box>
-        ) : (
-          <img
-            style={{
-              position: "relative",
-              zIndex: "10",
-              width: "800px",
-              height: "500px",
-            }}
-            src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=28&zoomType=fullscreen`}
-            alt="car"
-          />
-        )}
+        <Box
+          sx={{
+            display: isLoading ? "flex" : "none",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "800px",
+            height: "500px",
+          }}
+        >
+          <Loader theme={theme} />
+        </Box>
+
+        <img
+          style={{
+            display: isLoading ? "none" : "flex",
+            position: "relative",
+            zIndex: "10",
+            width: "800px",
+            height: "500px",
+          }}
+          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=28&zoomType=fullscreen`}
+          alt="car"
+          onLoad={() => stopLoading()}
+        />
+
         <Box
           sx={{
             display: "flex",
