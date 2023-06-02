@@ -1,5 +1,7 @@
+"use client";
+
 import React, { FC } from "react";
-import style from "./FogBackground.module.css";
+import style from "./SmokeBackground.module.css";
 import smokeGray from "./smoke-gray.png";
 import smoke1Red from "./red/smoke-red-1.png";
 import smoke2Red from "./red/smoke-red-2.png";
@@ -14,6 +16,7 @@ import smoke1Gray from "./gray/smoke-gray-1.png";
 import smoke2Gray from "./gray/smoke-gray-2.png";
 import smoke3Gray from "./gray/smoke-gray-3.png";
 import { useCarShowcase } from "../../../../hooks/useCarShowcase";
+import Image from "next/image";
 
 interface ISmokeImages {
   red1: string;
@@ -45,50 +48,50 @@ const images: ISmokeImages = {
   gray3: smoke3Gray,
 };
 
-const FogBackground: FC = () => {
+const SmokeBackground: FC = () => {
   const { car } = useCarShowcase();
   const { carColor } = car;
   return (
     <section className={style.agSmokeBlock}>
       <div className={style.agSmoke1}>
-        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay1}`}>
-        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay2}`}>
-        <img src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke2}>
-        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay1}`}>
-        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay2}`}>
-        <img src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke3}>
-        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay1}`}>
-        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay2}`}>
-        <img src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
       </div>
       <div className={style.agSmoke4}>
-        <img src={smokeGray} alt="smoke" />
+        <Image src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay1}`}>
-        <img src={smokeGray} alt="smoke" />
+        <Image src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay2}`}>
-        <img src={smokeGray} alt="smoke" />
+        <Image src={smokeGray} alt="smoke" />
       </div>
       <div className={style.agFormatContainer}></div>
     </section>
   );
 };
 
-export default FogBackground;
+export default SmokeBackground;

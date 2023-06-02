@@ -1,13 +1,16 @@
+"use client";
+
 import React, { FC, useState } from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { useActions } from "../../hooks/useActions";
-import { showCaseCarsData } from "../../data/showcase.data";
-import { useCarShowcase } from "../../hooks/useCarShowcase";
-import Loader from "../UI/loader/Loader";
-import CarParametersCard from "../UI/cards/CarParametersCard";
+import { useActions } from "../../../../hooks/useActions";
+import { showCaseCarsData } from "../../../../data/showcase.data";
+import { useCarShowcase } from "../../../../hooks/useCarShowcase";
+import Loader from "../../../UI/loader/Loader";
+import CarParametersCard from "../../../UI/cards/CarParametersCard";
+import Image from "next/image";
 
 const Showcase: FC = () => {
   const [activeCarBtn, setActiveCarBtn] = useState("design");
@@ -100,20 +103,18 @@ const Showcase: FC = () => {
         >
           <Loader theme={theme} />
         </Box>
-
-        <img
+        <Image
+          width={800}
+          height={500}
           style={{
             display: isLoading ? "none" : "flex",
             position: "relative",
             zIndex: "10",
-            width: "800px",
-            height: "500px",
           }}
           src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=28&zoomType=fullscreen`}
           alt="car"
           onLoad={() => stopLoading()}
         />
-
         <Box
           sx={{
             display: "flex",

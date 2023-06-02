@@ -1,3 +1,5 @@
+"use client";
+
 import React, { FC } from "react";
 import Logo from "../Logo";
 import { IShowcaseCar } from "../../../types/carShowcase.types";

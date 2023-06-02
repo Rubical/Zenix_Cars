@@ -1,8 +1,11 @@
+"use client";
+
 import React, { FC } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { TypeCar } from "../../../types/carShowcase.types";
 import { useCarShowcase } from "../../../hooks/useCarShowcase";
+import Image from "next/image";
 
 const PartnersCard: FC<Pick<TypeCar, "brand" | "carSlogan">> = ({
   brand,
@@ -31,7 +34,7 @@ const PartnersCard: FC<Pick<TypeCar, "brand" | "carSlogan">> = ({
         },
       }}
     >
-      <img src={brand} alt="brand" />
+      <Image src={brand} alt="brand" />
       <Typography
         sx={{
           marginTop: "30px",

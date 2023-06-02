@@ -4,10 +4,6 @@
 }
 
 
-img {
-    max-width: 100%;
-}
-
 .agSmokeBlock {
     position: absolute;
     z-index: -1;

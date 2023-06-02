@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
@@ -8,11 +10,12 @@ import teslaLogo from "./tesla-logo.svg";
 import chevroletLogo from "./chevrolet-logo.svg";
 import audiLogo from "./audi-logo.svg";
 import ferrariLogo from "./ferrari-logo.svg";
-import PartnersCard from "../UI/cards/PartnersCard";
-import { TypeCar } from "../../types/carShowcase.types";
-import { useCarShowcase } from "../../hooks/useCarShowcase";
+import PartnersCard from "../../../UI/cards/PartnersCard";
+import { TypeCar } from "../../../../types/carShowcase.types";
+import { useCarShowcase } from "../../../../hooks/useCarShowcase";
+import Image from "next/image";
 
-const PartnersBlock = () => {
+const Partners = () => {
   type TypePartner = Pick<TypeCar, "brand" | "carSlogan">;
 
   const partners: TypePartner[] = [
@@ -49,7 +52,7 @@ const PartnersBlock = () => {
         marginBottom: "110px",
       }}
     >
-      <img
+      <Image
         style={{ position: "absolute", left: "0" }}
         src={tireTrack}
         alt="tire-track"
@@ -105,4 +108,4 @@ const PartnersBlock = () => {
   );
 };
 
-export default PartnersBlock;
+export default Partners;

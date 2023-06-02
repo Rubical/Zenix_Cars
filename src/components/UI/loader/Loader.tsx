@@ -1,3 +1,5 @@
+"use client";
+
 import React, { FC } from "react";
 import style from "./Loader.module.css";
 import { IShowcaseCar } from "../../../types/carShowcase.types";
