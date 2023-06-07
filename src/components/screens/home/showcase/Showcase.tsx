@@ -1,41 +1,20 @@
-"use client";
-
 import React, { FC, useState } from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import { useActions } from "../../../../hooks/useActions";
-import { showCaseCarsData } from "../../../../data/showcase.data";
-import { useCarShowcase } from "../../../../hooks/useCarShowcase";
-import Loader from "../../../UI/loader/Loader";
-import CarParametersCard from "../../../UI/cards/CarParametersCard";
+import { useCar } from "../../../../hooks/useCar";
+import Loader from "../../../loader/Loader";
+import CarParametersCard from "./CarParametersCard";
 import Image from "next/image";
+import { filterCars } from "../../../../utils/filterCars";
 
 const Showcase: FC = () => {
-  const [activeCarBtn, setActiveCarBtn] = useState("design");
-  const { car, theme, isLoading } = useCarShowcase();
-  const { brand, model, carColor, carSlogan, engine, car0__100, gearbox } = car;
+  const { car, theme, isLoading } = useCar();
+  const { brand, model, color, slogan, engine, time0__100, gearbox } = car;
   const { primaryColor, secondaryColor } = theme;
-  const { changeShowcaseCar, startLoading, stopLoading } = useActions();
-
-  const switchShowcaseCar = (category: string) => {
-    if (activeCarBtn === category) return;
-    const selector =
-      category === "design"
-        ? "audi"
-        : category === "comfort"
-        ? "mercedes"
-        : category === "safety"
-        ? "volvo"
-        : "volkswagen";
-    const activeCar = showCaseCarsData.filter(
-      (el) => el.car.brand === selector
-    );
-    setActiveCarBtn(category);
-    changeShowcaseCar(activeCar[0]);
-    startLoading();
-  };
+  const { stopLoading, changeCar } = useActions();
 
   return (
     <Container
@@ -83,7 +62,7 @@ const Showcase: FC = () => {
         <Typography
           sx={{ color: "lightgray", fontSize: "14px", width: "700px" }}
         >
-          {carSlogan}
+          {slogan}
         </Typography>
       </Box>
       <Box
@@ -107,12 +86,13 @@ const Showcase: FC = () => {
           width={800}
           height={500}
           style={{
-            display: isLoading ? "none" : "flex",
-            position: "relative",
+            visibility: isLoading ? "hidden" : "visible",
+            position: isLoading ? "absolute" : "relative",
             zIndex: "10",
           }}
-          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=28&zoomType=fullscreen`}
+          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${color}&angle=28&zoomType=fullscreen`}
           alt="car"
+          priority={true}
           onLoad={() => stopLoading()}
         />
         <Box
@@ -131,11 +111,11 @@ const Showcase: FC = () => {
           }}
         >
           <Button
-            onClick={() => switchShowcaseCar("design")}
+            onClick={() => changeCar(filterCars("audi"))}
             disableRipple={true}
             sx={{
               textTransform: "none",
-              color: activeCarBtn === "design" ? primaryColor : secondaryColor,
+              color: car.brand === "audi" ? primaryColor : secondaryColor,
               fontSize: "15px",
               fontWeight: "600",
               "&:hover": {
@@ -147,11 +127,11 @@ const Showcase: FC = () => {
             Design
           </Button>
           <Button
-            onClick={() => switchShowcaseCar("comfort")}
+            onClick={() => changeCar(filterCars("mercedes"))}
             disableRipple={true}
             sx={{
               textTransform: "none",
-              color: activeCarBtn === "comfort" ? primaryColor : secondaryColor,
+              color: car.brand === "mercedes" ? primaryColor : secondaryColor,
               fontSize: "15px",
               fontWeight: "600",
               "&:hover": {
@@ -163,11 +143,11 @@ const Showcase: FC = () => {
             Comfort
           </Button>
           <Button
-            onClick={() => switchShowcaseCar("safety")}
+            onClick={() => changeCar(filterCars("volvo"))}
             disableRipple={true}
             sx={{
               textTransform: "none",
-              color: activeCarBtn === "safety" ? primaryColor : secondaryColor,
+              color: car.brand === "volvo" ? primaryColor : secondaryColor,
               fontSize: "15px",
               fontWeight: "600",
               "&:hover": {
@@ -179,11 +159,11 @@ const Showcase: FC = () => {
             Safety
           </Button>
           <Button
-            onClick={() => switchShowcaseCar("spaces")}
+            onClick={() => changeCar(filterCars("volkswagen"))}
             disableRipple={true}
             sx={{
               textTransform: "none",
-              color: activeCarBtn === "spaces" ? primaryColor : secondaryColor,
+              color: car.brand === "volkswagen" ? primaryColor : secondaryColor,
               fontSize: "15px",
               fontWeight: "600",
               "&:hover": {
@@ -197,10 +177,9 @@ const Showcase: FC = () => {
         </Box>
       </Box>
       <CarParametersCard
-        car0__100={car0__100}
+        time0__100={time0__100}
         engine={engine}
         gearbox={gearbox}
-        marginTop={"-50px"}
       />
     </Container>
   );

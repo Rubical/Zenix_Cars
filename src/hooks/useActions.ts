@@ -1,10 +1,10 @@
 import { useDispatch } from "react-redux";
 import { bindActionCreators, combineReducers } from "@reduxjs/toolkit";
 import { useMemo } from "react";
-import { carShowcaseSlice } from "../store/carShowcase.slice";
+import { carSlice } from "../store/car.slice";
 
 const rootActions = {
-  ...carShowcaseSlice.actions,
+  ...carSlice.actions,
 };
 
 export const useActions = () => {

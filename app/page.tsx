@@ -1,6 +1,8 @@
-import React from "react";
 import Home from "src/components/screens/home/Home";
+import { NextPage } from "next";
 
-export default function HomePage() {
+const HomePage: NextPage = () => {
   return <Home />;
-}
+};
+
+export default HomePage;

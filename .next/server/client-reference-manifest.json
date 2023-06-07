@@ -230,6 +230,84 @@
         "async": false
       }
     },
+    "(app-client)/./app/Providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/Providers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/Providers.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/Providers.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/layout/Layout.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/layout/Layout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/layout/Layout.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/layout/Layout.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/screens/home/customerExperience/background.png": {
       "*": {
         "id": "(sc_client)/./src/components/screens/home/customerExperience/background.png",
@@ -327,110 +405,6 @@
       },
       "default": {
         "id": "(sc_client)/./src/components/screens/home/featuredCars/feature-card-background.png",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/partners/audi-logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/partners/audi-logo.svg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/partners/audi-logo.svg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/partners/audi-logo.svg",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/partners/chevrolet-logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/partners/ferrari-logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/partners/ferrari-logo.svg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/partners/ferrari-logo.svg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/partners/ferrari-logo.svg",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/partners/tesla-logo.svg": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/partners/tesla-logo.svg",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/partners/tesla-logo.svg",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/partners/tesla-logo.svg",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -802,6 +776,110 @@
         "async": false
       }
     },
+    "(app-client)/./src/data/partners/audi-logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/data/partners/audi-logo.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/data/partners/audi-logo.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/data/partners/audi-logo.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/data/partners/chevrolet-logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/data/partners/chevrolet-logo.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/data/partners/chevrolet-logo.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/data/partners/chevrolet-logo.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/data/partners/ferrari-logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/data/partners/ferrari-logo.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/data/partners/ferrari-logo.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/data/partners/ferrari-logo.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/data/partners/tesla-logo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/data/partners/tesla-logo.svg",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/data/partners/tesla-logo.svg",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/data/partners/tesla-logo.svg",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -862,84 +940,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/UI/cards/CarParametersCard.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/UI/cards/CarParametersCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/UI/cards/CarParametersCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/UI/cards/CarParametersCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/UI/cards/PartnersCard.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/UI/cards/PartnersCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/UI/cards/PartnersCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/UI/cards/PartnersCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/UI/loader/Loader.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/UI/loader/Loader.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/UI/loader/Loader.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/UI/loader/Loader.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/components/screens/home/Home.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/screens/home/Home.tsx",
@@ -965,249 +965,15 @@
         ],
         "async": false
       }
-    },
-    "(app-client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/partners/Partners.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/partners/Partners.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/partners/Partners.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/partners/Partners.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/showcase/Showcase.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/showcase/Showcase.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/showcase/Showcase.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/showcase/Showcase.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/Providers.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/Providers.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/Providers.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/Providers.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/layout/Logo.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/layout/Logo.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/layout/Logo.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/layout/Logo.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/layout/footer/Footer.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/layout/footer/Footer.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/layout/footer/Footer.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/layout/footer/Footer.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/layout/header/Header.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/layout/header/Header.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/layout/header/Header.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/layout/header/Header.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -1883,7 +1649,117 @@
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\loader\\Loader.module.css#": {
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\reset.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\header\\Header.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx": {
+      "id": "(app-client)/./app/Providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#": {
+      "id": "(app-client)/./app/Providers.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#default": {
+      "id": "(app-client)/./app/Providers.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx": {
+      "id": "(app-client)/./src/components/layout/Layout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx#": {
+      "id": "(app-client)/./src/components/layout/Layout.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx#default": {
+      "id": "(app-client)/./src/components/layout/Layout.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\loader\\Loader.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
@@ -1987,102 +1863,6 @@
     },
     "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png#default": {
       "id": "(app-client)/./src/components/screens/home/featuredCars/feature-card-background.png",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\audi-logo.svg": {
-      "id": "(app-client)/./src/components/screens/home/partners/audi-logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\audi-logo.svg#": {
-      "id": "(app-client)/./src/components/screens/home/partners/audi-logo.svg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\audi-logo.svg#default": {
-      "id": "(app-client)/./src/components/screens/home/partners/audi-logo.svg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\chevrolet-logo.svg": {
-      "id": "(app-client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\chevrolet-logo.svg#": {
-      "id": "(app-client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\chevrolet-logo.svg#default": {
-      "id": "(app-client)/./src/components/screens/home/partners/chevrolet-logo.svg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\ferrari-logo.svg": {
-      "id": "(app-client)/./src/components/screens/home/partners/ferrari-logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\ferrari-logo.svg#": {
-      "id": "(app-client)/./src/components/screens/home/partners/ferrari-logo.svg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\ferrari-logo.svg#default": {
-      "id": "(app-client)/./src/components/screens/home/partners/ferrari-logo.svg",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tesla-logo.svg": {
-      "id": "(app-client)/./src/components/screens/home/partners/tesla-logo.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tesla-logo.svg#": {
-      "id": "(app-client)/./src/components/screens/home/partners/tesla-logo.svg",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tesla-logo.svg#default": {
-      "id": "(app-client)/./src/components/screens/home/partners/tesla-logo.svg",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -2425,6 +2205,102 @@
       ],
       "async": false
     },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg": {
+      "id": "(app-client)/./src/data/partners/audi-logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg#": {
+      "id": "(app-client)/./src/data/partners/audi-logo.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg#default": {
+      "id": "(app-client)/./src/data/partners/audi-logo.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg": {
+      "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#": {
+      "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#default": {
+      "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg": {
+      "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#": {
+      "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#default": {
+      "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg": {
+      "id": "(app-client)/./src/data/partners/tesla-logo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#": {
+      "id": "(app-client)/./src/data/partners/tesla-logo.svg",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#default": {
+      "id": "(app-client)/./src/data/partners/tesla-logo.svg",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
@@ -2537,78 +2413,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\CarParametersCard.tsx": {
-      "id": "(app-client)/./src/components/UI/cards/CarParametersCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\CarParametersCard.tsx#": {
-      "id": "(app-client)/./src/components/UI/cards/CarParametersCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\CarParametersCard.tsx#default": {
-      "id": "(app-client)/./src/components/UI/cards/CarParametersCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\PartnersCard.tsx": {
-      "id": "(app-client)/./src/components/UI/cards/PartnersCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\PartnersCard.tsx#": {
-      "id": "(app-client)/./src/components/UI/cards/PartnersCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\cards\\PartnersCard.tsx#default": {
-      "id": "(app-client)/./src/components/UI/cards/PartnersCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\loader\\Loader.tsx": {
-      "id": "(app-client)/./src/components/UI/loader/Loader.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\loader\\Loader.tsx#": {
-      "id": "(app-client)/./src/components/UI/loader/Loader.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\UI\\loader\\Loader.tsx#default": {
-      "id": "(app-client)/./src/components/UI/loader/Loader.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\Home.tsx": {
       "id": "(app-client)/./src/components/screens/home/Home.tsx",
       "name": "*",
@@ -2630,229 +2434,6 @@
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\CustomerExperience.tsx": {
-      "id": "(app-client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\CustomerExperience.tsx#": {
-      "id": "(app-client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\CustomerExperience.tsx#default": {
-      "id": "(app-client)/./src/components/screens/home/customerExperience/CustomerExperience.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\FeaturedCars.tsx": {
-      "id": "(app-client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\FeaturedCars.tsx#": {
-      "id": "(app-client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\FeaturedCars.tsx#default": {
-      "id": "(app-client)/./src/components/screens/home/featuredCars/FeaturedCars.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\Partners.tsx": {
-      "id": "(app-client)/./src/components/screens/home/partners/Partners.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\Partners.tsx#": {
-      "id": "(app-client)/./src/components/screens/home/partners/Partners.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\Partners.tsx#default": {
-      "id": "(app-client)/./src/components/screens/home/partners/Partners.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\showcase\\Showcase.tsx": {
-      "id": "(app-client)/./src/components/screens/home/showcase/Showcase.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\showcase\\Showcase.tsx#": {
-      "id": "(app-client)/./src/components/screens/home/showcase/Showcase.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\showcase\\Showcase.tsx#default": {
-      "id": "(app-client)/./src/components/screens/home/showcase/Showcase.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\SmokeBackground.tsx": {
-      "id": "(app-client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\SmokeBackground.tsx#": {
-      "id": "(app-client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\SmokeBackground.tsx#default": {
-      "id": "(app-client)/./src/components/screens/home/smokeBackground/SmokeBackground.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx": {
-      "id": "(app-client)/./app/Providers.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#": {
-      "id": "(app-client)/./app/Providers.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#default": {
-      "id": "(app-client)/./app/Providers.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Logo.tsx": {
-      "id": "(app-client)/./src/components/layout/Logo.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Logo.tsx#": {
-      "id": "(app-client)/./src/components/layout/Logo.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Logo.tsx#default": {
-      "id": "(app-client)/./src/components/layout/Logo.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\footer\\Footer.tsx": {
-      "id": "(app-client)/./src/components/layout/footer/Footer.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\footer\\Footer.tsx#": {
-      "id": "(app-client)/./src/components/layout/footer/Footer.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\footer\\Footer.tsx#default": {
-      "id": "(app-client)/./src/components/layout/footer/Footer.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\header\\Header.tsx": {
-      "id": "(app-client)/./src/components/layout/header/Header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\header\\Header.tsx#": {
-      "id": "(app-client)/./src/components/layout/header/Header.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\header\\Header.tsx#default": {
-      "id": "(app-client)/./src/components/layout/header/Header.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }

@@ -20,6 +20,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0;
     animation: SmokeBackground_anSmoke1__d0POy 6s ease-in-out infinite;
 }
 .SmokeBackground_agSmoke2__ywHUt {
@@ -32,6 +33,7 @@
     position: absolute;
     width: 70%;
     left: 0;
+    opacity: 0;
     animation: SmokeBackground_anSmoke2__MF3_I 6s ease-in-out infinite;
 }
 .SmokeBackground_agSmoke3__lU9CN {
@@ -45,6 +47,7 @@
     position: absolute;
     top: 12em;
     right: 0;
+    opacity: 0;
     animation: SmokeBackground_anSmoke3__U36ac 6s ease-in-out infinite;
 }
 .SmokeBackground_agSmoke__delay1__hPsVZ {
@@ -53,6 +56,7 @@
 .SmokeBackground_agSmoke__delay2__7NAFC {
     animation-delay: 4s;
 }
+
 @keyframes SmokeBackground_anSmoke1__d0POy {
     0% {
         opacity: 0;
@@ -66,6 +70,8 @@
         transform: translateY(0) rotate(.01deg);
     }
 }
+
+
 @keyframes SmokeBackground_anSmoke2__MF3_I {
     0% {
         opacity: 0;
@@ -79,6 +85,8 @@
         transform: translateY(5%) rotate(.01deg);
     }
 }
+
+
 @keyframes SmokeBackground_anSmoke3__U36ac {
     0% {
         opacity: 0;
@@ -123,28 +131,28 @@
 
 }
 
-/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/components/UI/loader/Loader.module.css ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************/
-.Loader_car__body__ij3qJ {
-    animation: Loader_shake__lyA3U 0.2s ease-in-out infinite alternate;
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[7].use[3]!./src/components/loader/Loader.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Loader_car__body__cYKxr {
+    animation: Loader_shake__Yj_fX 0.2s ease-in-out infinite alternate;
 }
-.Loader_car__line__L4Def {
+.Loader_car__line__iLClq {
     transform-origin: center right;
     stroke-dasharray: 22;
-    animation: Loader_line__sTrRW 0.8s ease-in-out infinite;
+    animation: Loader_line__Tjlnd 0.8s ease-in-out infinite;
     animation-fill-mode: both;
 }
-.Loader_car__line--top__mcp5z {
+.Loader_car__line--top__Xt7Lj {
     animation-delay: 0s;
 }
-.Loader_car__line--middle__xurB0 {
+.Loader_car__line--middle__08Dvd {
     animation-delay: 0.2s;
 }
-.Loader_car__line--bottom__YMRAK {
+.Loader_car__line--bottom__p6CKA {
     animation-delay: 0.4s;
 }
-@keyframes Loader_shake__lyA3U {
+@keyframes Loader_shake__Yj_fX {
     0% {
         transform: translateY(-1%);
     }
@@ -152,7 +160,7 @@
         transform: translateY(3%);
     }
 }
-@keyframes Loader_line__sTrRW {
+@keyframes Loader_line__Tjlnd {
     0% {
         stroke-dashoffset: 22;
     }

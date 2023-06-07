@@ -1,5 +1,3 @@
-"use client";
-
 import * as React from "react";
 import Logo from "../Logo";
 import { Box, IconButton } from "@mui/material";
@@ -9,13 +7,16 @@ import { Menu } from "@mui/material";
 import { Container } from "@mui/material";
 import { Button } from "@mui/material";
 import { MenuItem } from "@mui/material";
-import { IShowcaseCar } from "../../../types/carShowcase.types";
+import { ICar } from "../../../types/car.types";
 import { FC } from "react";
 import { AppBar } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import Link from "next/link";
+import style from "./Header.module.css";
+import { usePathname } from "next/navigation";
 
-interface IHeader extends Pick<IShowcaseCar, "theme"> {}
+interface IHeader extends Pick<ICar, "theme"> {}
 
 const Header: FC<IHeader> = ({ theme }) => {
   const { primaryColor, secondaryColor } = theme;
@@ -31,6 +32,7 @@ const Header: FC<IHeader> = ({ theme }) => {
     setAnchorElNav(null);
   };
 
+  const pathname = usePathname();
   return (
     <AppBar
       sx={{
@@ -45,7 +47,7 @@ const Header: FC<IHeader> = ({ theme }) => {
           <Box
             sx={{ display: { xs: "none", md: "flex" }, marginRight: "250px" }}
           >
-            <Logo carColor={primaryColor} textColor={secondaryColor} />
+            <Logo primaryColor={primaryColor} secondaryColor={secondaryColor} />
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -82,60 +84,57 @@ const Header: FC<IHeader> = ({ theme }) => {
             </Menu>
           </Box>
           <Box sx={{ display: { xs: "flex", md: "none" } }}>
-            <Logo carColor={primaryColor} textColor={secondaryColor} />
+            <Logo primaryColor={primaryColor} secondaryColor={secondaryColor} />
           </Box>
           <Box
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
-              columnGap: "40px",
+              columnGap: "50px",
             }}
           >
-            <Button
-              disableRipple={true}
-              sx={{
-                color: secondaryColor,
+            <Link
+              className={style.link}
+              href={"/"}
+              style={{
+                color: pathname === "/" ? primaryColor : secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
-                "&:hover": {
-                  opacity: "0.8",
-                  backgroundColor: "transparent",
-                },
+                fontFamily: "Montserrat",
+                marginTop: "8px",
               }}
             >
               Home
-            </Button>
-            <Button
-              disableRipple={true}
-              sx={{
+            </Link>
+            <Link
+              className={style.link}
+              href={"/configurator"}
+              style={{
                 color: secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
-                "&:hover": {
-                  opacity: "0.8",
-                  backgroundColor: "transparent",
-                },
+                fontFamily: "Montserrat",
+                marginTop: "8px",
               }}
             >
               Configurator
-            </Button>
-            <Button
-              disableRipple={true}
-              sx={{
+            </Link>
+            <Link
+              className={style.link}
+              href={"/history"}
+              style={{
                 color: secondaryColor,
                 fontWeight: "600",
                 fontSize: "16px",
                 textTransform: "none",
-                "&:hover": {
-                  opacity: "0.8",
-                  backgroundColor: "transparent",
-                },
+                fontFamily: "Montserrat",
+                marginTop: "8px",
               }}
             >
               History
-            </Button>
+            </Link>
           </Box>
           <Box>
             <Button

@@ -1,14 +1,12 @@
-"use client";
-
 import React, { FC } from "react";
 import Logo from "../Logo";
-import { IShowcaseCar } from "../../../types/carShowcase.types";
+import { ICar } from "../../../types/car.types";
 import { Box, Container, Link, Typography } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-interface IFooter extends Pick<IShowcaseCar, "theme"> {}
+interface IFooter extends Pick<ICar, "theme"> {}
 
 const Footer: FC<IFooter> = ({ theme }) => {
   const { primaryColor, secondaryColor } = theme;
@@ -21,7 +19,7 @@ const Footer: FC<IFooter> = ({ theme }) => {
         paddingBottom: "50px",
       }}
     >
-      <Logo carColor={primaryColor} textColor={secondaryColor} />
+      <Logo primaryColor={primaryColor} secondaryColor={secondaryColor} />
       <Box
         sx={{
           display: "flex",

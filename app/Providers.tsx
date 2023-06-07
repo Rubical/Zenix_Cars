@@ -1,15 +1,13 @@
 "use client";
 
 import React, { ReactNode } from "react";
-import Layout from "../src/components/layout/layout";
 import { createTheme } from "@mui/material/styles";
 import { ThemeProvider } from "@mui/material";
-import { AppProps } from "next/app";
 import { Provider } from "react-redux";
 import { store } from "../src/store/store";
-import "./globals.css";
+import "./reset.css";
 
-const theme = createTheme({
+const muiTheme = createTheme({
   typography: {
     fontFamily: ["Montserrat"].join(","),
   },
@@ -18,9 +16,7 @@ const theme = createTheme({
 export default function Providers({ children }: { children: ReactNode }) {
   return (
     <Provider store={store}>
-      <ThemeProvider theme={theme}>
-        <Layout>{children}</Layout>
-      </ThemeProvider>
+      <ThemeProvider theme={muiTheme}>{children}</ThemeProvider>
     </Provider>
   );
 }

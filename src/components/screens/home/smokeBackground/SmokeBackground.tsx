@@ -1,5 +1,3 @@
-"use client";
-
 import React, { FC } from "react";
 import style from "./SmokeBackground.module.css";
 import smokeGray from "./smoke-gray.png";
@@ -15,7 +13,7 @@ import smoke3Brown from "./brown/smoke-brown-3.png";
 import smoke1Gray from "./gray/smoke-gray-1.png";
 import smoke2Gray from "./gray/smoke-gray-2.png";
 import smoke3Gray from "./gray/smoke-gray-3.png";
-import { useCarShowcase } from "../../../../hooks/useCarShowcase";
+import { useCar } from "../../../../hooks/useCar";
 import Image from "next/image";
 
 interface ISmokeImages {
@@ -49,45 +47,80 @@ const images: ISmokeImages = {
 };
 
 const SmokeBackground: FC = () => {
-  const { car } = useCarShowcase();
-  const { carColor } = car;
+  const { car } = useCar();
   return (
     <section className={style.agSmokeBlock}>
       <div className={style.agSmoke1}>
-        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 1) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay1}`}>
-        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 1) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke1} ${style.agSmoke__delay2}`}>
-        <Image src={images[(carColor + 1) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 1) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={style.agSmoke2}>
-        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 2) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay1}`}>
-        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 2) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke2} ${style.agSmoke__delay2}`}>
-        <Image src={images[(carColor + 2) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 2) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={style.agSmoke3}>
-        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 3) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay1}`}>
-        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 3) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={`${style.agSmoke3} ${style.agSmoke__delay2}`}>
-        <Image src={images[(carColor + 3) as keyof ISmokeImages]} alt="smoke" />
+        <Image
+          priority={true}
+          src={images[(car.color + 3) as keyof ISmokeImages]}
+          alt="smoke"
+        />
       </div>
       <div className={style.agSmoke4}>
-        <Image src={smokeGray} alt="smoke" />
+        <Image priority={true} src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay1}`}>
-        <Image src={smokeGray} alt="smoke" />
+        <Image priority={true} src={smokeGray} alt="smoke" />
       </div>
       <div className={`${style.agSmoke4} ${style.agSmoke__delay2}`}>
-        <Image src={smokeGray} alt="smoke" />
+        <Image priority={true} src={smokeGray} alt="smoke" />
       </div>
       <div className={style.agFormatContainer}></div>
     </section>

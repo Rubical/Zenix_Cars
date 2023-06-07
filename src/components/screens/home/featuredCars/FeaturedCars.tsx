@@ -1,20 +1,14 @@
-"use client";
-
 import React, { FC } from "react";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { List, ListItem } from "@mui/material";
-import { useCarShowcase } from "../../../../hooks/useCarShowcase";
-import Loader from "../../../UI/loader/Loader";
-import { useActions } from "../../../../hooks/useActions";
+import { useCar } from "../../../../hooks/useCar";
 import backgroundCarImg from "./feature-card-background.png";
 import Image from "next/image";
 
 const FeaturedCars: FC = () => {
-  const { car, theme, isLoading } = useCarShowcase();
-  const { brand, model, carColor } = car;
-  const { stopLoading } = useActions();
+  const { car, theme, isLoading } = useCar();
 
   return (
     <Container
@@ -25,17 +19,6 @@ const FeaturedCars: FC = () => {
       }}
     >
       <Box sx={{ position: "absolute", left: "0" }}>
-        <Box
-          sx={{
-            display: isLoading ? "flex" : "none",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "800px",
-            height: "500px",
-          }}
-        >
-          <Loader theme={theme} />
-        </Box>
         <Image
           style={{
             position: "absolute",
@@ -54,9 +37,8 @@ const FeaturedCars: FC = () => {
             position: "relative",
             zIndex: "10",
           }}
-          src={`https://cdn.imagin.studio/getImage?&make=${brand}&modelFamily=${model}&customer=img&paintDescription=${carColor}&angle=09&zoomType=fullscreen`}
+          src={`https://cdn.imagin.studio/getImage?&make=${car.brand}&modelFamily=${car.model}&customer=img&paintDescription=${car.color}&angle=09&zoomType=fullscreen`}
           alt="car"
-          onLoadingComplete={() => stopLoading()}
         />
       </Box>
       <Box sx={{ color: "white" }}>
@@ -78,7 +60,7 @@ const FeaturedCars: FC = () => {
             rowGap: "20px",
             marginTop: "30px",
             fontWeight: "600",
-            letterSpacing: "1px",
+            fontFamily: "Montserrat",
           }}
         >
           <ListItem
