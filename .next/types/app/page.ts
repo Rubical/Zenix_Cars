@@ -1,4 +1,4 @@
-// File: C:\Users\peap2\Desktop\code\zenix_cars\app\page.tsx
+// File: C:\Users\peap2\Desktop\code\JS\zenix_cars\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

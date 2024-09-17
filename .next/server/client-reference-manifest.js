@@ -969,15 +969,15 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\layout": [
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\layout": [
       "static/css/app/layout.css"
     ],
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\page": [
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\page": [
       "static/css/app/page.css"
     ]
   },
   "clientModules": {
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -985,7 +985,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -993,7 +993,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1001,7 +1001,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1009,7 +1009,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1017,7 +1017,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1025,15 +1025,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1041,7 +1033,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1049,7 +1049,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1057,7 +1057,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1065,7 +1065,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1073,7 +1073,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1081,7 +1081,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1089,7 +1089,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1097,7 +1097,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1105,15 +1105,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1121,7 +1113,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1129,7 +1129,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1137,7 +1137,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -1145,7 +1145,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -1153,7 +1153,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -1161,7 +1161,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -1169,7 +1169,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -1177,7 +1177,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -1185,15 +1185,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -1201,7 +1193,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -1209,7 +1209,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -1217,7 +1217,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -1225,7 +1225,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -1233,7 +1233,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -1241,7 +1241,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -1249,7 +1249,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -1257,7 +1257,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -1265,7 +1265,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -1273,7 +1273,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -1281,7 +1281,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -1289,7 +1289,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -1297,7 +1297,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -1305,7 +1305,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -1313,7 +1313,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -1321,7 +1321,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -1329,7 +1329,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -1337,7 +1337,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -1345,7 +1345,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -1353,7 +1353,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -1361,7 +1361,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -1369,7 +1369,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -1377,7 +1377,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1385,7 +1385,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1393,7 +1393,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1401,7 +1401,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1409,15 +1409,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -1425,7 +1417,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1433,7 +1433,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1441,7 +1441,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1449,7 +1449,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1457,7 +1457,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1465,7 +1465,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1473,15 +1473,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -1489,7 +1481,15 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1497,7 +1497,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1505,7 +1505,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1513,7 +1513,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1521,7 +1521,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1529,7 +1529,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1537,7 +1537,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1545,7 +1545,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1553,7 +1553,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1561,7 +1561,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1569,7 +1569,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1577,7 +1577,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1585,7 +1585,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1593,7 +1593,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1601,7 +1601,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1609,7 +1609,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1617,7 +1617,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1625,7 +1625,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1633,7 +1633,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1641,7 +1641,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1649,21 +1649,21 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\reset.css#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\reset.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\header\\Header.module.css#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\layout\\header\\Header.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\Providers.tsx": {
       "id": "(app-client)/./app/Providers.tsx",
       "name": "*",
       "chunks": [
@@ -1671,7 +1671,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\Providers.tsx#": {
       "id": "(app-client)/./app/Providers.tsx",
       "name": "",
       "chunks": [
@@ -1679,7 +1679,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\app\\Providers.tsx#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\app\\Providers.tsx#default": {
       "id": "(app-client)/./app/Providers.tsx",
       "name": "default",
       "chunks": [
@@ -1687,7 +1687,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1695,7 +1695,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
@@ -1703,7 +1703,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1711,7 +1711,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
@@ -1719,7 +1719,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1727,7 +1727,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
@@ -1735,7 +1735,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\layout\\Layout.tsx": {
       "id": "(app-client)/./src/components/layout/Layout.tsx",
       "name": "*",
       "chunks": [
@@ -1743,7 +1743,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\layout\\Layout.tsx#": {
       "id": "(app-client)/./src/components/layout/Layout.tsx",
       "name": "",
       "chunks": [
@@ -1751,7 +1751,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\layout\\Layout.tsx#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\layout\\Layout.tsx#default": {
       "id": "(app-client)/./src/components/layout/Layout.tsx",
       "name": "default",
       "chunks": [
@@ -1759,21 +1759,21 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\loader\\Loader.module.css#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\loader\\Loader.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\SmokeBackground.module.css#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\SmokeBackground.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
       ]
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/background.png",
       "name": "*",
       "chunks": [
@@ -1781,7 +1781,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png#": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/background.png",
       "name": "",
       "chunks": [
@@ -1789,7 +1789,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\background.png#default": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/background.png",
       "name": "default",
       "chunks": [
@@ -1797,7 +1797,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/guy.png",
       "name": "*",
       "chunks": [
@@ -1805,7 +1805,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png#": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/guy.png",
       "name": "",
       "chunks": [
@@ -1813,7 +1813,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\guy.png#default": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/guy.png",
       "name": "default",
       "chunks": [
@@ -1821,7 +1821,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/tire-track.png",
       "name": "*",
       "chunks": [
@@ -1829,7 +1829,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png#": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/tire-track.png",
       "name": "",
       "chunks": [
@@ -1837,7 +1837,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\customerExperience\\tire-track.png#default": {
       "id": "(app-client)/./src/components/screens/home/customerExperience/tire-track.png",
       "name": "default",
       "chunks": [
@@ -1845,7 +1845,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png": {
       "id": "(app-client)/./src/components/screens/home/featuredCars/feature-card-background.png",
       "name": "*",
       "chunks": [
@@ -1853,7 +1853,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png#": {
       "id": "(app-client)/./src/components/screens/home/featuredCars/feature-card-background.png",
       "name": "",
       "chunks": [
@@ -1861,7 +1861,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\featuredCars\\feature-card-background.png#default": {
       "id": "(app-client)/./src/components/screens/home/featuredCars/feature-card-background.png",
       "name": "default",
       "chunks": [
@@ -1869,7 +1869,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg": {
       "id": "(app-client)/./src/components/screens/home/partners/tire-track.svg",
       "name": "*",
       "chunks": [
@@ -1877,7 +1877,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg#": {
       "id": "(app-client)/./src/components/screens/home/partners/tire-track.svg",
       "name": "",
       "chunks": [
@@ -1885,7 +1885,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\partners\\tire-track.svg#default": {
       "id": "(app-client)/./src/components/screens/home/partners/tire-track.svg",
       "name": "default",
       "chunks": [
@@ -1893,7 +1893,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-1.png",
       "name": "*",
       "chunks": [
@@ -1901,7 +1901,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-1.png",
       "name": "",
       "chunks": [
@@ -1909,7 +1909,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-1.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-1.png",
       "name": "default",
       "chunks": [
@@ -1917,7 +1917,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-2.png",
       "name": "*",
       "chunks": [
@@ -1925,7 +1925,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-2.png",
       "name": "",
       "chunks": [
@@ -1933,7 +1933,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-2.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-2.png",
       "name": "default",
       "chunks": [
@@ -1941,7 +1941,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-3.png",
       "name": "*",
       "chunks": [
@@ -1949,7 +1949,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-3.png",
       "name": "",
       "chunks": [
@@ -1957,7 +1957,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\blue\\smoke-blue-3.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/blue/smoke-blue-3.png",
       "name": "default",
       "chunks": [
@@ -1965,7 +1965,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-1.png",
       "name": "*",
       "chunks": [
@@ -1973,7 +1973,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-1.png",
       "name": "",
       "chunks": [
@@ -1981,7 +1981,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-1.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-1.png",
       "name": "default",
       "chunks": [
@@ -1989,7 +1989,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-2.png",
       "name": "*",
       "chunks": [
@@ -1997,7 +1997,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-2.png",
       "name": "",
       "chunks": [
@@ -2005,7 +2005,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-2.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-2.png",
       "name": "default",
       "chunks": [
@@ -2013,7 +2013,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-3.png",
       "name": "*",
       "chunks": [
@@ -2021,7 +2021,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-3.png",
       "name": "",
       "chunks": [
@@ -2029,7 +2029,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\brown\\smoke-brown-3.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/brown/smoke-brown-3.png",
       "name": "default",
       "chunks": [
@@ -2037,7 +2037,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-1.png",
       "name": "*",
       "chunks": [
@@ -2045,7 +2045,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-1.png",
       "name": "",
       "chunks": [
@@ -2053,7 +2053,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-1.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-1.png",
       "name": "default",
       "chunks": [
@@ -2061,7 +2061,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-2.png",
       "name": "*",
       "chunks": [
@@ -2069,7 +2069,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-2.png",
       "name": "",
       "chunks": [
@@ -2077,7 +2077,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-2.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-2.png",
       "name": "default",
       "chunks": [
@@ -2085,7 +2085,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-3.png",
       "name": "*",
       "chunks": [
@@ -2093,7 +2093,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-3.png",
       "name": "",
       "chunks": [
@@ -2101,7 +2101,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\gray\\smoke-gray-3.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/gray/smoke-gray-3.png",
       "name": "default",
       "chunks": [
@@ -2109,7 +2109,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-1.png",
       "name": "*",
       "chunks": [
@@ -2117,7 +2117,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-1.png",
       "name": "",
       "chunks": [
@@ -2125,7 +2125,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-1.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-1.png",
       "name": "default",
       "chunks": [
@@ -2133,7 +2133,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-2.png",
       "name": "*",
       "chunks": [
@@ -2141,7 +2141,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-2.png",
       "name": "",
       "chunks": [
@@ -2149,7 +2149,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-2.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-2.png",
       "name": "default",
       "chunks": [
@@ -2157,7 +2157,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-3.png",
       "name": "*",
       "chunks": [
@@ -2165,7 +2165,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-3.png",
       "name": "",
       "chunks": [
@@ -2173,7 +2173,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\red\\smoke-red-3.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/red/smoke-red-3.png",
       "name": "default",
       "chunks": [
@@ -2181,7 +2181,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/smoke-gray.png",
       "name": "*",
       "chunks": [
@@ -2189,7 +2189,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png#": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/smoke-gray.png",
       "name": "",
       "chunks": [
@@ -2197,7 +2197,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\smokeBackground\\smoke-gray.png#default": {
       "id": "(app-client)/./src/components/screens/home/smokeBackground/smoke-gray.png",
       "name": "default",
       "chunks": [
@@ -2205,7 +2205,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\audi-logo.svg": {
       "id": "(app-client)/./src/data/partners/audi-logo.svg",
       "name": "*",
       "chunks": [
@@ -2213,7 +2213,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\audi-logo.svg#": {
       "id": "(app-client)/./src/data/partners/audi-logo.svg",
       "name": "",
       "chunks": [
@@ -2221,7 +2221,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\audi-logo.svg#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\audi-logo.svg#default": {
       "id": "(app-client)/./src/data/partners/audi-logo.svg",
       "name": "default",
       "chunks": [
@@ -2229,7 +2229,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg": {
       "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
       "name": "*",
       "chunks": [
@@ -2237,7 +2237,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#": {
       "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
       "name": "",
       "chunks": [
@@ -2245,7 +2245,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\chevrolet-logo.svg#default": {
       "id": "(app-client)/./src/data/partners/chevrolet-logo.svg",
       "name": "default",
       "chunks": [
@@ -2253,7 +2253,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg": {
       "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
       "name": "*",
       "chunks": [
@@ -2261,7 +2261,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#": {
       "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
       "name": "",
       "chunks": [
@@ -2269,7 +2269,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\ferrari-logo.svg#default": {
       "id": "(app-client)/./src/data/partners/ferrari-logo.svg",
       "name": "default",
       "chunks": [
@@ -2277,7 +2277,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\tesla-logo.svg": {
       "id": "(app-client)/./src/data/partners/tesla-logo.svg",
       "name": "*",
       "chunks": [
@@ -2285,7 +2285,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#": {
       "id": "(app-client)/./src/data/partners/tesla-logo.svg",
       "name": "",
       "chunks": [
@@ -2293,7 +2293,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\data\\partners\\tesla-logo.svg#default": {
       "id": "(app-client)/./src/data/partners/tesla-logo.svg",
       "name": "default",
       "chunks": [
@@ -2301,7 +2301,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\image.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -2309,7 +2309,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
@@ -2317,7 +2317,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\image.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -2325,7 +2325,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
@@ -2333,7 +2333,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\client\\image.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -2341,7 +2341,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
@@ -2349,7 +2349,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -2357,7 +2357,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
@@ -2365,7 +2365,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -2373,7 +2373,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
@@ -2381,7 +2381,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -2389,7 +2389,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
@@ -2397,7 +2397,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -2405,7 +2405,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
@@ -2413,7 +2413,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\Home.tsx": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\Home.tsx": {
       "id": "(app-client)/./src/components/screens/home/Home.tsx",
       "name": "*",
       "chunks": [
@@ -2421,7 +2421,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\Home.tsx#": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\Home.tsx#": {
       "id": "(app-client)/./src/components/screens/home/Home.tsx",
       "name": "",
       "chunks": [
@@ -2429,7 +2429,7 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\peap2\\Desktop\\code\\zenix_cars\\src\\components\\screens\\home\\Home.tsx#default": {
+    "C:\\Users\\peap2\\Desktop\\code\\JS\\zenix_cars\\src\\components\\screens\\home\\Home.tsx#default": {
       "id": "(app-client)/./src/components/screens/home/Home.tsx",
       "name": "default",
       "chunks": [
